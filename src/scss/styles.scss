@@ -17,10 +17,40 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
-// Import Bootstrap styles:
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Import partials:
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
 
-// Custom styles:
+.header {
+  height: 300px;
+  background-image: url('../img/pirate-photos/pirate-ship.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  font-family: 'Syne Mono', monospace;
+}
+
+.lead{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.footer {
+  font-family: 'Syne Mono', monospace;
+  background-color: #40748A;
+  padding: 20px 0;
+}
+
+.caption-bold {
+  font-weight: bold;
+}
+
+.caption-italic {
+  font-style: italic;
+}
+
+
 

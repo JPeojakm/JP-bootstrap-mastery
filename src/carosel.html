@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  
   <nav class="navbar navbar-expand-lg navbar-light bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Pirate Cove</a>
@@ -42,42 +43,43 @@
     </div>
 </div>
 
-  <div class="container-fluid">
-      <p class="lead mt-4">Thar be monsters in the sea</p>
+<div id="carouselExampleCaptions" class="carousel slide mt-4 container" data-bs-ride="carousel">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-8 ">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img/pirate-photos/kraken01.jpg" class="d-block w-100" alt="kraken01">
+                  <div class="carousel-caption d-none d-md-block">
+                      <p>Something about this photo.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="img/pirate-photos/kraken02.jpg" class="d-block w-100" alt="kraken02">
+                  <div class="carousel-caption d-none d-md-block">
+                      <p>Something about this photo.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="img/pirate-photos/kraken03.jpg" class="d-block w-100" alt="kraken03">
+                  <div class="carousel-caption d-none d-md-block">
+                      <p>Something about this photo.</p>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
   </div>
+</div>
 
-  <div class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-90 border">
-          <img src="img/pirate-photos/kraken01.jpg" class="card-img-top" alt="kraken1">
-          <div class="card-body">
-            <h5 class="card-title">Name this Kraken!</h5>
-            <p class="card-text">It was a foul sight, an obscene growth from the dark places of the world, where incessant hunger is the driving force.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border">
-          <img src="img/pirate-photos/kraken02.jpg" class="card-img-top" alt="kraken2">
-          <div class="card-body">
-            <h5 class="card-title">Name this Kraken!</h5>
-            <p class="card-text">Be not afraid of whirlpools, of strong winds, and murky waves. Fear the creature that dwells in the darkest depths, the ice-shackled Kraken, that threatens to surface and your soul to keep.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-80 border">
-          <img src="img/pirate-photos/kraken03.jpg" class="card-img-top" alt="kraken3">
-          <div class="card-body">
-            <h5 class="card-title">Name this Kraken!</h5>
-            <p class="card-text">Look: the kraken of your idiocy. Yes, there it is, moving darkly beneath the water.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+   
+ 
   <footer class="text-center p-3">
     <div class="footer">Site by Jinpeng Li</div>
   </footer>
